@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monstserrat, sans-serif;
+}
+
+.container-fluid{
+  background-color: #d9d9d9;
+  color: black;
+  padding: 16px;
+}
+
+p {
+  text-align: center;
+}
+
+
+.patientdash button{
+  display: inline-block;
+  padding: 6px 6px 6px 6px;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #1e6ab0 50%, #6590bf 50%, #4d6db3);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.6s;
+  color:#FFF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.patientdash button:hover{
+  background-position: 100% 0%;
+}
+
+button{
+  display: inline-block;
+  padding: 16px 25px;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #1e6ab0 50%, #6590bf 50%, #4d6db3);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.6s;
+  color:#FFF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+input.right{
+  float: right;
+  margin-right: 40px;
+}
+
+h6{
+  text-align: center;
+  font-size: 15px;
+}
+
+input, button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.LoginLogic{
+  height: 140vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #53565A;
+}
+
+.patientdash{
+
+}
+
+form{
+  display: block;
+  position: relative;
+}
+
+form:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 1;
+  background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+}
+
+form .form-inner{
+  position:relative;
+  display:block;
+  margin-bottom: 20%;
+  background-color: #FFF;
+  padding: 20px;
+  z-index: 2;
+  
+}
+
+form .form-inner h2, h4 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+
+}
+
+form .form-inner .form-group{
+  display: block;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.form-inner .form-group label{
+display: block;
+color: rgb(140, 86, 178);
+font-size: 15px;
+margin-left: 35px;
+margin-bottom: 5px;
+transition: 0.4s;
+}
+
+.form-inner.form-group:focus-within label{
+  color: #2a5d8e;
+}
+
+form .form-inner .form-group input{
+  display: block;
+  width: 85%;
+  margin-left: 35px;
+  padding: 25px 25px;
+  background-color: #f8f8f8;
+  font-size: 17px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+form .form-inner .form-group input:focus{
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+form .form-inner input[type="submit"],
+.welcome button{
+  display: inline-block;
+  padding: 16px 25px;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #1e6ab0 50%, #6590bf 50%, #4d6db3);
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.6s;
+  color:#FFF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+form .form-inner input[type="submit"]:hover,
+.welcome button:hover{
+  background-position: 100% 0%;
+
+}
+
+.welcome{
+  width:100%;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+
+.welcome h4{
+  color:#888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.welcome h4 span{
+color: rgb(85, 73, 73);
+font-weight: 700;
+}
